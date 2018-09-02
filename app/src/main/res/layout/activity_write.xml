@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorGray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGray"
+        android:orientation="vertical">
+
+        <!-- 타이틀 바 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite"
+            android:elevation="1dp">
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:scaleType="center"
+                app:srcCompat="@drawable/icon_menu" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:text="@string/write_activity_diary_title"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/sd_misaeng"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/btn_image"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:scaleType="center"
+                app:srcCompat="@drawable/icon_camera" />
+
+        </RelativeLayout>
+
+        <!-- 일기 표시 영역, 코드 상으로 리니어레이아웃에 Diary 객체에서 미리 다 만들어 준 layout를 추가해 넣음으로써 내용 표시 -->
+        <ScrollView
+            android:id="@+id/write_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/write_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical"/>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

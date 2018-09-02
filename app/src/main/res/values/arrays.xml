@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 설정 화면에서 스피너에서 선택할 수 있는 목록 정의 -->
+    <string-array name="font">
+        <item>나눔 바른 고딕</item>
+        <item>나눔 명조</item>
+    </string-array>
+</resources>

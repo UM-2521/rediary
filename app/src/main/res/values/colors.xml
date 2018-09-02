@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlack">#141414</color> <!-- 검정색, 완전히 000000이 아님 -->
+    <color name="colorBlack2">#202020</color> <!-- 검정색2 -->
+    <color name="colorWhite">#ffffff</color> <!-- 하얀색 -->
+    <color name="colorGray">#e0e0e0</color> <!-- 회색 -->
+    <color name="colorGrayBorder">#bababa</color> <!-- 옅은 회색-->
+    <color name="colorGrayDark">#7d7d7d</color> <!-- 진한 회색 -->
+    <color name="transparent">#00ffffff</color> <!-- 투명 -->
+</resources>

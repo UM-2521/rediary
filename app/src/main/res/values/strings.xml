@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">다시 일기</string>
+    <string name="title_activity_google_drive">GoogleDriveActivity</string>
+
+    <string name="tutorial_activity_description">튜토리얼 이미지</string>
+    <string name="tutorial_activity_next">&#9654;</string>
+
+    <string name="setting">설정</string>
+    <string name="list_activity_search_title">2018.8.30</string>
+    <string name="set_activity_install_count_title">알림 활성화까지 남은 일수</string>
+    <string name="set_activity_install_count">100일</string>
+    <string name="set_activity_install_count_description">첫 일기 작성일로부터 100일이 지나고 나서 일기 알림을 시작합니다.</string>
+
+    <string name="set_activity_today_alarm">오늘의 다시 읽기</string>
+    <string name="set_activity_today_alarm_cycle">알림 시각</string>
+
+    <string name="set_activity_today_alarm_cycle_default">1일 마다</string>
+    <string name="set_activity_today_alarm_time_default">06:30 에</string>
+
+    <string name="set_activity_backup_resotre">백업과 복구</string>
+    <string name="set_activity_resotre">복구</string>
+    <string name="set_activity_backup">백업</string>
+    <string name="set_activity_re_tutorial">다시 일기 사용법</string>
+    <string name="set_activity_re_tutorial_button">보기</string>
+    <string name="set_activity_app_version">다시 일기 © 180901</string>
+    <string name="set_activity_developer_name">UM #2521</string>
+
+    <string name="write_activity_diary_title">(일기 제목)</string>
+
+    <string name="first_cell_edittext_hint">오늘은 어제와 같은 하루였다.</string>
+    <string name="add_cell_edittext_hint">오늘은 많은 일이 있었다.</string>
+</resources>

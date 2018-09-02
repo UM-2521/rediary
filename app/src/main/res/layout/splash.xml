@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 배경, 테스트 결과 로그 이미지 출력 후 약간 시간 지나고 배경색이 출력됌. 따라서 로고 이미지에 배경을 넣어 하나로 만듦. -->
+    <item
+        android:drawable="@color/colorWhite"/>
+    <!-- 로고 -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/splash"/>
+    </item>
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 나눔명조 폰트, @font/nanum_myeonjo 참조를 하기 위해 만든 xml 파일 -->
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/sd_misaeng" />
+</font-family>
